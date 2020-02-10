@@ -2052,8 +2052,8 @@ ul.icons {
   body.is-preload #banner:before {
     opacity: 1; }
 
-/* CTA */
-#cta {
+/* Copy Section */
+#copy {
   background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
@@ -2064,140 +2064,140 @@ ul.icons {
   position: relative;
   text-align: center;
   z-index: 1; }
-  #cta input, #cta select, #cta textarea {
+  #copy input, #copy select, #copy textarea {
     color: #ffffff; }
-  #cta a {
+  #copy a {
     color: #ffffff; }
-  #cta strong, #cta b {
+  #copy strong, #copy b {
     color: #ffffff; }
-  #cta h1, #cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
+  #copy h1, #copy h2, #copy h3, #copy h4, #copy h5, #copy h6 {
     color: #ffffff; }
-  #cta blockquote {
+  #copy blockquote {
     border-left-color: rgba(255, 255, 255, 0.25); }
-  #cta code {
+  #copy code {
     background: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
-  #cta hr {
+  #copy hr {
     border-bottom-color: rgba(255, 255, 255, 0.25); }
-  #cta input[type="submit"],
-  #cta input[type="reset"],
-  #cta input[type="button"],
-  #cta button,
-  #cta .button {
+  #copy input[type="submit"],
+  #copy input[type="reset"],
+  #copy input[type="button"],
+  #copy button,
+  #copy .button {
     background-color: transparent;
     box-shadow: inset 0 0 0 1px #ffffff;
     color: #ffffff !important; }
-    #cta input[type="submit"]:hover,
-    #cta input[type="reset"]:hover,
-    #cta input[type="button"]:hover,
-    #cta button:hover,
-    #cta .button:hover {
+    #copy input[type="submit"]:hover,
+    #copy input[type="reset"]:hover,
+    #copy input[type="button"]:hover,
+    #copy button:hover,
+    #copy .button:hover {
       background-color: rgba(255, 255, 255, 0.1); }
-      #cta input[type="submit"]:hover:active,
-      #cta input[type="reset"]:hover:active,
-      #cta input[type="button"]:hover:active,
-      #cta button:hover:active,
-      #cta .button:hover:active {
+      #copy input[type="submit"]:hover:active,
+      #copy input[type="reset"]:hover:active,
+      #copy input[type="button"]:hover:active,
+      #copy button:hover:active,
+      #copy .button:hover:active {
         background-color: rgba(255, 255, 255, 0.25); }
-    #cta input[type="submit"].primary,
-    #cta input[type="reset"].primary,
-    #cta input[type="button"].primary,
-    #cta button.primary,
-    #cta .button.primary {
+    #copy input[type="submit"].primary,
+    #copy input[type="reset"].primary,
+    #copy input[type="button"].primary,
+    #copy button.primary,
+    #copy .button.primary {
       box-shadow: none;
       background-color: #ffffff;
       color: #ce1b28 !important; }
-      #cta input[type="submit"].primary:hover,
-      #cta input[type="reset"].primary:hover,
-      #cta input[type="button"].primary:hover,
-      #cta button.primary:hover,
-      #cta .button.primary:hover {
+      #copy input[type="submit"].primary:hover,
+      #copy input[type="reset"].primary:hover,
+      #copy input[type="button"].primary:hover,
+      #copy button.primary:hover,
+      #copy .button.primary:hover {
         background-color: rgba(255, 255, 255, 0.875);
         box-shadow: none; }
-        #cta input[type="submit"].primary:hover:active,
-        #cta input[type="reset"].primary:hover:active,
-        #cta input[type="button"].primary:hover:active,
-        #cta button.primary:hover:active,
-        #cta .button.primary:hover:active {
+        #copy input[type="submit"].primary:hover:active,
+        #copy input[type="reset"].primary:hover:active,
+        #copy input[type="button"].primary:hover:active,
+        #copy button.primary:hover:active,
+        #copy .button.primary:hover:active {
           background-color: rgba(255, 255, 255, 0.5); }
-  #cta label {
+  #copy label {
     color: #ffffff; }
-  #cta input[type="text"],
-  #cta input[type="password"],
-  #cta input[type="email"],
-  #cta input[type="tel"],
-  #cta input[type="search"],
-  #cta input[type="url"],
-  #cta select,
-  #cta textarea {
+  #copy input[type="text"],
+  #copy input[type="password"],
+  #copy input[type="email"],
+  #copy input[type="tel"],
+  #copy input[type="search"],
+  #copy input[type="url"],
+  #copy select,
+  #copy textarea {
     background-color: rgba(255, 255, 255, 0.075);
     border-color: rgba(255, 255, 255, 0.25); }
-    #cta input[type="text"]:focus,
-    #cta input[type="password"]:focus,
-    #cta input[type="email"]:focus,
-    #cta input[type="tel"]:focus,
-    #cta input[type="search"]:focus,
-    #cta input[type="url"]:focus,
-    #cta select:focus,
-    #cta textarea:focus {
+    #copy input[type="text"]:focus,
+    #copy input[type="password"]:focus,
+    #copy input[type="email"]:focus,
+    #copy input[type="tel"]:focus,
+    #copy input[type="search"]:focus,
+    #copy input[type="url"]:focus,
+    #copy select:focus,
+    #copy textarea:focus {
       border-color: #ffffff;
       box-shadow: 0 0 0 1px #ffffff; }
-  #cta select {
+  #copy select {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.25)' /%3E%3C/svg%3E"); }
-    #cta select option {
+    #copy select option {
       color: rgba(255, 255, 255, 0.75);
       background-color: #ce1b28; }
-  #cta input[type="checkbox"] + label,
-  #cta input[type="radio"] + label {
+  #copy input[type="checkbox"] + label,
+  #copy input[type="radio"] + label {
     color: rgba(255, 255, 255, 0.75); }
-    #cta input[type="checkbox"] + label:before,
-    #cta input[type="radio"] + label:before {
+    #copy input[type="checkbox"] + label:before,
+    #copy input[type="radio"] + label:before {
       background: rgba(255, 255, 255, 0.075);
       border-color: rgba(255, 255, 255, 0.25); }
-  #cta input[type="checkbox"]:checked + label:before,
-  #cta input[type="radio"]:checked + label:before {
+  #copy input[type="checkbox"]:checked + label:before,
+  #copy input[type="radio"]:checked + label:before {
     background-color: #ffffff;
     border-color: #ffffff;
     color: #ce1b28; }
-  #cta input[type="checkbox"]:focus + label:before,
-  #cta input[type="radio"]:focus + label:before {
+  #copy input[type="checkbox"]:focus + label:before,
+  #copy input[type="radio"]:focus + label:before {
     border-color: #ffffff;
     box-shadow: 0 0 0 1px #ffffff; }
-  #cta ::-webkit-input-placeholder {
+  #copy ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.4) !important; }
-  #cta :-moz-placeholder {
+  #copy :-moz-placeholder {
     color: rgba(255, 255, 255, 0.4) !important; }
-  #cta ::-moz-placeholder {
+  #copy ::-moz-placeholder {
     color: rgba(255, 255, 255, 0.4) !important; }
-  #cta :-ms-input-placeholder {
+  #copy :-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.4) !important; }
-  #cta ul.alt li {
+  #copy ul.alt li {
     border-top-color: rgba(255, 255, 255, 0.25); }
-  #cta table tbody tr {
+  #copy table tbody tr {
     border-color: rgba(255, 255, 255, 0.25); }
-    #cta table tbody tr:nth-child(2n + 1) {
+    #copy table tbody tr:nth-child(2n + 1) {
       background-color: rgba(255, 255, 255, 0.075); }
-  #cta table th {
+  #copy table th {
     color: #ffffff; }
-  #cta table thead {
+  #copy table thead {
     border-bottom-color: rgba(255, 255, 255, 0.25); }
-  #cta table tfoot {
+  #copy table tfoot {
     border-top-color: rgba(255, 255, 255, 0.25); }
-  #cta table.alt tbody tr td {
+  #copy table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.25); }
-  #cta .highlights .content {
+  #copy .highlights .content {
     background: #ce1b28;
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
-  #cta .testimonials .content {
+  #copy .testimonials .content {
     background: #ce1b28;
     box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025); }
-    #cta .testimonials .content .credit strong {
+    #copy .testimonials .content .credit strong {
       color: #ce1b28; }
-  #cta .inner {
+  #copy .inner {
     position: relative;
     z-index: 3; }
   @media screen and (max-width: 980px) {
-    #cta {
+    #copy {
       background-attachment: scroll; } }
 
 /* contact */
