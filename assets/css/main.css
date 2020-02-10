@@ -2380,31 +2380,99 @@ ul.icons {
   display: none;
 }
 
+/*Main Contact CSS */
+
+.subhead {
+  font-family: "covesbold", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.3125;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  color: #bf0000;
+  margin-top: 0;
+  margin-bottom: 2.1rem;
+}
+.subhead::before {
+  content: "/ ";
+}
+
+.contact-main {
+  margin-top: 14.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.contact-availability {
+  display: inline-block;
+  font-family: "coveslight", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.222;
+  color: #dbdbdb;
+  padding-top: 2.6rem;
+  position: relative;
+}
+
+.contact-email {
+  display: inline-block;
+  font-family: "coveslight", sans-serif;
+  font-size: 4.8rem;
+  line-height: 1.222;
+  color: #ffffff;
+  padding-top: 2.6rem;
+  position: relative;
+}
+.contact-email::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 60px;
+  background-color: #bf0000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contact-number {
+  font-family: "coveslight", sans-serif;
+  font-size: 3rem;
+  color: #bf0000;
+  line-height: 1.7;
+  display: block;
+}
+
+.contact-address {
+  font-family: "coveslight", sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.607;
+  margin-top: 2.4rem;
+}
+
+
+
 
 
   @media screen and (max-width: 1280px) {
-    #footer {
+    #contact {
       padding: 4rem 0 2rem 0 ; } }
   @media screen and (max-width: 980px) {
-    #footer .content {
+    #contact .content {
       -moz-flex-wrap: wrap;
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
-      #footer .content section {
+      #contact .content section {
         width: 50%; }
-        #footer .content section:first-child {
+        #contact .content section:first-child {
           width: 100%;
           padding-right: 0; } }
   @media screen and (max-width: 736px) {
-    #footer {
+    #contact {
       padding: 3rem 0 1rem 0 ; }
-      #footer .content section {
+      #contact .content section {
         width: 100%; }
-        #footer .content section:last-child {
+        #contact .content section:last-child {
           padding-left: 0; } }
   @media screen and (max-width: 480px) {
-    #footer {
+    #contact {
       padding: 2rem 0 0.1rem 0 ; } }
 
 /* Header */
