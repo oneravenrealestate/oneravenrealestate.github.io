@@ -1,5 +1,5 @@
-@import url(font-awesome.min.css);
-@import url(stylesheet.css);
+@import url(assets/css/font-awesome.min.css);
+@import url(assets/css/stylesheet.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 
 /* Basic */
@@ -361,6 +361,134 @@ button,
       button.primary:hover:active,
       .button.primary:hover:active {
         background-color: #b71824; }
+
+
+
+
+/* ===================================================================
+ * # oR buttons
+ *
+ * ------------------------------------------------------------------- */
+.btn,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  font-family: "covesbold", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  height: 5.4rem;
+  line-height: 5rem;
+  padding: 0 3rem;
+  margin: 0 0.3rem 1.2rem 0;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #c5c5c5;
+  border: 0.2rem solid #c5c5c5;
+}
+
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.btn:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  background-color: #b8b8b8;
+  border-color: #b8b8b8;
+  color: #000000;
+  outline: 0;
+}
+
+/* button primary
+ * ------------------------------------------------- */
+.btn.btn--primary,
+button.btn--primary,
+input[type="submit"].btn--primary,
+input[type="reset"].btn--primary,
+input[type="button"].btn--primary {
+  background: #bf0000;
+  border-color: #bf0000;
+  color: #ffffff;
+  max-width: 500px;
+}<p>
+                    
+.btn.btn--primary:hover,
+button.btn--primary:hover,
+input[type="submit"].btn--primary:hover,
+input[type="reset"].btn--primary:hover,
+input[type="button"].btn--primary:hover,
+.btn.btn--primary:focus,
+button.btn--primary:focus,
+input[type="submit"].btn--primary:focus,
+input[type="reset"].btn--primary:focus,
+input[type="button"].btn--primary:focus {
+  background: #ff0000;
+  border-color: #bf0000;
+  max-width: 500px;
+}
+
+/* button modifiers
+ * ------------------------------------------------- */
+.btn.full-width,
+button.full-width {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.btn--medium,
+button.btn--medium {
+  height: 5.7rem !important;
+  line-height: 5.3rem !important;
+}
+
+.btn--large,
+button.btn--large {
+  height: 6rem !important;
+  line-height: 5.6rem !important;
+}
+
+.btn--stroke,
+button.btn--stroke {
+  background: transparent !important;
+  border: 0.2rem solid #000000;
+  color: #000000;
+}
+
+.btn--stroke:hover,
+button.btn--stroke:hover {
+  background: #000000 !important;
+  border: 0.2rem solid #000000;
+  color: #ffffff;
+}
+
+.btn--pill,
+button.btn--pill {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+  border-radius: 1000px !important;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+
+
+
 
 /* Form */
 form {
