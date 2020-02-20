@@ -1842,9 +1842,19 @@ ul.actions {
       .row.gtr-200.gtr-uniform > * {
         padding-top: 2.5rem; } }
 
-/* Defined Columns 
+/* Defined Columns */
 
-.image_col1 {*/
+.image_col1 {
+  width: 400px;
+  display: inline-block;
+  position: relative;
+  float: left; }
+
+.image_col2 {
+  width: 400px;
+  display: inline-block;
+  position: relative;
+  float: right; }
   
 
 
