@@ -237,6 +237,11 @@ code {
 hr {
   border-bottom-color: rgba(0, 0, 0, 0.25); }
 
+.center {
+margin: auto;
+width: 80em;
+}
+
 /* Inner */
 .inner {
   margin: 0 auto;
