@@ -1847,14 +1847,18 @@ ul.actions {
 .image_col1 {
   max-width: 100%;
   height: auto;
-  display: inline-block;
-  float: left; }
+ /* display: inline-block;
+  float: left;*/ }
 
 .image_col2 {
   max-width: 100%;
   height: auto;
-  display: inline-block;
-  float: left; }
+ /* display: inline-block;
+  float: left;*/ }
+
+.inline-flex-parent {
+  display: inline-flex;
+}
   
 
 
